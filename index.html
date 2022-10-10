@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="main-menu">
             <ul>
                 <a href="OnePerson.html">1 Person Project</a>
                 <a href="TwoPeople.html">2 Person Project</a>
@@ -25,10 +25,20 @@
 
             </ul>
         </nav>
-        </div>
-        <div id="hamburger" class="flex-center">
-            <!-- <button id="burgerOpen" >Burger</button> -->
-          </div>
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+          <nav id="sidebar-menu">
+            <h2>Menu</h2>
+            <ul>
+                <a href="OnePerson.html">1 Person Project</a>
+                <a href="TwoPeople.html">2 Person Project</a>
+                <a href="ThreePeople.html">3 Person Project</a>
+                <a href="require.html">Resources</a>
+                <a href="present.html">Presentation Info</a>
+            </ul>
+        </nav>
+        </label>
+        <div class="overlay"></div>
     </header>
 
 
